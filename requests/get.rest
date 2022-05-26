@@ -1,0 +1,6 @@
+GET http://localhost:3001/api/projects
+
+###
+GET http://localhost:3001/api/projects/628efc66d115ed6dcac93694
+
+

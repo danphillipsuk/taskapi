@@ -1,0 +1,17 @@
+POST http://localhost:3001/api/projects
+Content-Type: application/json
+
+{
+  "content": "Testing POST after directory restructure",
+  "important": true
+}
+
+###
+
+// Post with missing content 
+POST http://localhost:3001/api/projects
+Content-Type: application/json
+
+{
+  "important": false
+}

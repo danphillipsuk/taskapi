@@ -1,0 +1,15 @@
+PUT http://localhost:3001/api/projects/628efc66d115ed6dcac93694
+Content-Type: application/json
+
+{
+  "important": true
+}
+
+###
+PUT http://localhost:3001/api/projects/628efc66d115ed6dcac93694
+Content-Type: application/json
+
+{
+  "content": "ABCD"
+}
+
